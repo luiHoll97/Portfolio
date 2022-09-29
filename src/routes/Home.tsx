@@ -8,7 +8,6 @@ const Home = () : JSX.Element => {
   return (
     <div>
       <NavBar />
-      <br style={{color:"white"}}></br>
       <BackgroundImg />
     </div>
   )
