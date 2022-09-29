@@ -1,6 +1,7 @@
+
 import "./BackgroundImg.css"
 import React from "react"
-// imgs
+// Images
 import myBackground from "../../imgs/background-image.jpg"
 
 const BackgroundImg = (): JSX.Element => {
