@@ -1,12 +1,13 @@
 import React from "react";
 import Footer from "../components/Footer/Footer";
 import NavBar from "../components/NavBar/NavBar";
+import ProjectsComp from "../components/Projects/ProjectsComp";
 
 const Contact = (): JSX.Element => {
   return (
     <div>
       <NavBar />
-      <h1>contact MEEEEEE</h1>
+      <ProjectsComp heading="Contact" text="Let's talk!"/>
       <Footer />
     </div>
   );
