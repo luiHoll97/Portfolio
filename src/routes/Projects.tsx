@@ -7,14 +7,14 @@ import ProjectsComp from "../components/Projects/ProjectsComp";
 const Projects = (): JSX.Element => {
   return (
     <div>
-      <NavBar/>
-      <ProjectsComp 
-        heading="Projects" 
+      <NavBar />
+      <ProjectsComp
+        heading="Projects"
         text="a few things I've been tinkering on.."
       />
-      <Footer/>
+      <Footer />
     </div>
-  )
+  );
 };
 
 export default Projects;

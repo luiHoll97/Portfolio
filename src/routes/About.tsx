@@ -5,9 +5,9 @@ import NavBar from "../components/NavBar/NavBar";
 const About = (): JSX.Element => {
   return (
     <div>
-      <NavBar/>
+      <NavBar />
       <h1>about</h1>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

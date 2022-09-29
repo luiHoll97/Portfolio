@@ -5,9 +5,9 @@ import NavBar from "../components/NavBar/NavBar";
 const Contact = (): JSX.Element => {
   return (
     <div>
-      <NavBar/>
+      <NavBar />
       <h1>contact MEEEEEE</h1>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

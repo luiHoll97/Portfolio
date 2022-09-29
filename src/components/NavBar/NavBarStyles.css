@@ -71,7 +71,7 @@
     color: white;
   }
   .dropdown:hover {
-    color: #FFFF99;
+    color: #ffff99;
     transition: 0.4s;
   }
 }
