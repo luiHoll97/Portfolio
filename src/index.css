@@ -15,9 +15,10 @@ h1, h4, p, a {
 }
 
 a:hover {
-    color: green;
+    color: yellow;
     text-decoration: none;
     opacity: 50;
+    transition: 0.4s;
 }
 
 ul {
