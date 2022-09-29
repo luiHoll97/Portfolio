@@ -18,10 +18,11 @@ a {
 }
 
 a:hover {
-  color: yellow;
+  color: #FFFF99;
+  font-weight: 800;
   text-decoration: none;
   opacity: 50;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 ul {

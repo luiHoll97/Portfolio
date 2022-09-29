@@ -30,7 +30,7 @@ const Footer = (): JSX.Element => {
             </div>
             <div className="right">
                 <h4>Lui Holliday</h4>
-                <hr style={{color:"yellow",marginTop:"5px", marginBottom:"5px", opacity:"0.8", width:"max"}}></hr>
+                <hr style={{color:"#FFFF99",marginTop:"5px", marginBottom:"5px", opacity:"0.8", width:"max"}}></hr>
                 <p>This is my first portfolio page. This has been a lot of fun!</p>
                 <div className="social">
                 <FaGithub size={25} style={{color:"white", marginRight:"1rem"}}/>
