@@ -1,4 +1,3 @@
-import { greet } from "./utils/greet";
 import React from "react";
 
 import "./index.css";

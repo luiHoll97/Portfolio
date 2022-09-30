@@ -28,7 +28,7 @@ const Footer = (): JSX.Element => {
               style={{ color: "white", marginRight: "2rem" }}
             />
             <div>
-              <h4>+44 7889 787168</h4>
+              <p>+44 7889 787168</p>
             </div>
           </div>
           <div className="email">
@@ -37,7 +37,7 @@ const Footer = (): JSX.Element => {
               style={{ color: "white", marginRight: "2rem" }}
             />
             <div>
-              <h4>tech.luiholl@gmail.com</h4>
+              <p>tech.luiholl@gmail.com</p>
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Footer = (): JSX.Element => {
               width: "max",
             }}
           ></hr>
-          <p>This is my first portfolio page. This has been a lot of fun!</p>
+          <p></p>
           <div className="social">
             <FaGithub
               size={25}

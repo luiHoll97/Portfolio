@@ -8,6 +8,7 @@ interface IProject {
   description: string;
   imgsrc: string;
   webLink: string;
+  finished: boolean;
 }
 
 // const numberOfProjects = (workData : IProject[]) => {
@@ -24,8 +25,16 @@ const ProjectCard = (): JSX.Element => {
       <h1 className="proj-heading">Recents</h1>
       <div className="proj-container">
         {workData.map((project: IProject) => (
-          <div className="proj-card" key={project.id}>
-            <img src={project.imgsrc} alt="proj-card" />
+          <div
+            className={project.finished ? "proj-card" : "proj-card-dev"}
+            key={project.id}
+          >
+            <div className="img-cont">
+              <img src={project.imgsrc} alt="proj-card" />
+              {project.finished === false && (
+                <div className="centered">Coming soon</div>
+              )}
+            </div>
             <h2 className="proj-title">{project.title}</h2>
             <div className="pro-details">
               <p>{project.description}</p>
@@ -34,7 +43,7 @@ const ProjectCard = (): JSX.Element => {
                   className="btn"
                   onClick={() => (window.location.href = project.webLink)}
                 >
-                  View
+                  {project.finished ? "View" : "Ok then.."}
                 </button>
               </div>
             </div>
