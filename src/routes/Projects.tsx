@@ -5,7 +5,6 @@ import NavBar from "../components/NavBar/NavBar";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
 import ProjectsComp from "../components/Projects/ProjectsComp";
 
-
 const Projects = (): JSX.Element => {
   return (
     <div>

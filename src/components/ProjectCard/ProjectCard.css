@@ -1,73 +1,73 @@
 .proj-heading {
-    text-align: center;
-    padding: 4rem 0 2rem 0;
+  text-align: center;
+  padding: 4rem 0 2rem 0;
 }
 
 .proj-container {
-    max-width: 1140px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    padding-bottom: 5rem;
-    border-radius: 10px;
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding-bottom: 5rem;
+  border-radius: 10px;
 }
 
 .proj-card {
-    background-color: #1a1919;
-    padding: 1.2rem 1rem;
-    border-radius: 10px;
+  background-color: #1a1919;
+  padding: 1.2rem 1rem;
+  border-radius: 10px;
 }
 
 .proj-title {
-    color: white;
-    text-align: center;
-    padding:1rem 0;
-    margin-top: 2px;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2px;
 }
 
-.pro-details p{
-    padding-bottom: 1rem;
-    font-size: 1.1rem;
-    text-align: justify;
+.pro-details p {
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+  text-align: justify;
 }
 
-.pro-btns{
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0;
+.pro-btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
 }
 
-.pro-btns .btn{
-    padding: 0.5rem 1rem;
+.pro-btns .btn {
+  padding: 0.5rem 1rem;
 }
 
 .proj-card img {
-    width: 100%;
-    border-radius: 30px;
-    max-height: 300px;
+  width: 100%;
+  border-radius: 30px;
+  max-height: 300px;
 }
 
 .btn {
-    width: 100px;
-    height: 30px;
-    background-color: white;
-    color: black;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family:'Arial';
-    font-weight:800;
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Arial";
+  font-weight: 800;
 }
 
-.btn:hover{
-    background-color: #ffff99 ;
-    transition: 0.5s;
+.btn:hover {
+  background-color: #ffff99;
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 740px) {
-    .proj-container {
-        max-width: 90%;
-        margin: auto;
-        grid-template-columns: 1fr;
-    }
+  .proj-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
 }

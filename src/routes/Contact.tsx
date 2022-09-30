@@ -7,7 +7,7 @@ const Contact = (): JSX.Element => {
   return (
     <div>
       <NavBar />
-      <ProjectsComp heading="Contact" text="Let's talk!"/>
+      <ProjectsComp heading="Contact" text="Let's talk!" />
       <Footer />
     </div>
   );

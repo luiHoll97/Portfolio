@@ -1,13 +1,13 @@
-import React from "react"
-import "./ProjectCard.css"
+import React from "react";
+import "./ProjectCard.css";
 import workData from "../Work/workData";
 
 interface IProject {
-    id: number
-    title: string
-    description: string
-    imgsrc: string
-    webLink: string
+  id: number;
+  title: string;
+  description: string;
+  imgsrc: string;
+  webLink: string;
 }
 
 // const numberOfProjects = (workData : IProject[]) => {
@@ -18,29 +18,31 @@ interface IProject {
 //     return count
 // }
 
-const ProjectCard = () : JSX.Element => {
+const ProjectCard = (): JSX.Element => {
   return (
     <div className="work-container">
-        <h1 className="proj-heading">Recents</h1>
-        <div className="proj-container">
-            {workData.map((project: IProject) => (
-                <div className="proj-card" key={project.id}>
-                    <img src={project.imgsrc} alt="proj-card" />
-                    <h2 className="proj-title">{project.title}</h2>
-                    <div className="pro-details">
-                        <p>{project.description}</p>
-                        <div className="pro-buttons">
-                            <button className="btn" onClick={() => window.location.href=project.webLink}>
-                                View
-                            </button>
-                        </div>
-                    </div>
-                
-                </div>
-            ))}
-        </div>
+      <h1 className="proj-heading">Recents</h1>
+      <div className="proj-container">
+        {workData.map((project: IProject) => (
+          <div className="proj-card" key={project.id}>
+            <img src={project.imgsrc} alt="proj-card" />
+            <h2 className="proj-title">{project.title}</h2>
+            <div className="pro-details">
+              <p>{project.description}</p>
+              <div className="pro-buttons">
+                <button
+                  className="btn"
+                  onClick={() => (window.location.href = project.webLink)}
+                >
+                  View
+                </button>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
-  )
+  );
 };
 
 export default ProjectCard;
