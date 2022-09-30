@@ -1,5 +1,4 @@
 import React from "react"
-import { NavLink } from "react-router-dom";
 import "./ProjectCard.css"
 import workData from "../Work/workData";
 
@@ -11,14 +10,20 @@ interface IProject {
     webLink: string
 }
 
-const work = workData
+// const numberOfProjects = (workData : IProject[]) => {
+//     let count = 0
+//     for (const project of workData) {
+//         count++
+//     }
+//     return count
+// }
 
 const ProjectCard = () : JSX.Element => {
   return (
     <div className="work-container">
         <h1 className="proj-heading">Recents</h1>
         <div className="proj-container">
-            {work.map((project: IProject) => (
+            {workData.map((project: IProject) => (
                 <div className="proj-card" key={project.id}>
                     <img src={project.imgsrc} alt="proj-card" />
                     <h2 className="proj-title">{project.title}</h2>

@@ -1,5 +1,4 @@
-import dogPaw from "../../imgs/dogPaw"
-import bookImg from "../../imgs/bookImg"
+
 
 const workData = [
     {

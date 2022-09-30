@@ -10,7 +10,7 @@ const NavBar = (): JSX.Element => {
   return (
     <div className="header">
       <Link to={"/"}>
-        <img src={myLogo} className="myLogo"></img>
+        <img src={myLogo} className="myLogo" alt="Logo"></img>
       </Link>
       <ul className={dropdownStatus ? "nav-menu active" : "nav-menu"}>
         <li>
