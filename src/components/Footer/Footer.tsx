@@ -17,9 +17,9 @@ const Footer = (): JSX.Element => {
           <div className="location">
             <FaHome size={22} style={{ color: "white", marginRight: "2rem" }} />
             <div>
-              <p>Monteverde,</p>
-              <p>00152 Rome,</p>
-              <p>Italy</p>
+              <p>Tooting,</p>
+              <p>SW17 London,</p>
+              <p>United Kingdom</p>
             </div>
           </div>
           <div className="phone">
@@ -46,7 +46,7 @@ const Footer = (): JSX.Element => {
           <hr
             style={{
               color: "#FFFF99",
-              marginTop: "5px",
+              marginTop: "10px",
               marginBottom: "5px",
               opacity: "0.8",
               width: "max",
