@@ -19,7 +19,6 @@ a {
 
 a:hover {
   color: #ffff99;
-  font-weight: 800;
   text-decoration: none;
   opacity: 50;
   transition: 0.5s;
