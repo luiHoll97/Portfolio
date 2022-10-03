@@ -30,11 +30,12 @@ const ProjectCard = (): JSX.Element => {
             key={project.id}
           >
             <div className="img-cont">
-              <img src={project.imgsrc} alt="proj-card" />
+              <img src={project.imgsrc} alt="proj-card"/>
               {project.finished === false && (
                 <div className="centered">Coming soon</div>
               )}
             </div>
+    
             <h2 className="proj-title">{project.title}</h2>
             <div className="pro-details">
               <p>{project.description}</p>

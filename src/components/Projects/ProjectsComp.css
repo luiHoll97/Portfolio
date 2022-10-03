@@ -19,12 +19,13 @@
 }
 
 .hero-img h1 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
 }
 
 .hero-img p {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   text-align: center;
+  margin-top: 10px;
 }
 
 .heading {
