@@ -64,7 +64,7 @@ const Footer = (): JSX.Element => {
               size={25}
               style={{ color: "white", marginRight: "1rem" }}
             />
-            <a href="www.linkedin.com/in/lucien-holliday">
+            <a href="https://www.linkedin.com/in/lucien-holliday">
               <FaLinkedin
                 size={25}
                 style={{ color: "white", marginRight: "1rem" }}
