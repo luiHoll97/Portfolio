@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ContactMe.css";
 
 const ContactMe = (): JSX.Element => {
+  const [name, setName] = useState<string>("");
+  const [email, setEmail] = useState<string>("");
+  const [message, setMessage] = useState<string>("");
+
+  const checkForDefaults = (name: string, email: string, message: string) => {
+    return name.length > 0 && email.length > 0 && message.length > 0;
+  };
+
   return (
     <div className="form">
       <form
@@ -14,6 +22,7 @@ const ContactMe = (): JSX.Element => {
           id="name"
           type="text"
           placeholder="required..."
+          onChange={(e) => setName(e.target.value)}
         ></input>
         <label htmlFor="email">Email</label>
         <input
@@ -21,6 +30,7 @@ const ContactMe = (): JSX.Element => {
           id="email"
           type="email"
           placeholder="required..."
+          onChange={(e) => setEmail(e.target.value)}
         ></input>
         <label>Subject</label>
         <input
@@ -35,16 +45,28 @@ const ContactMe = (): JSX.Element => {
           id="message"
           rows={6}
           placeholder="type your message here"
+          onChange={(e) => setMessage(e.target.value)}
         />
-        <input
-          type="submit"
-          value="Submit"
-          style={{
-            backgroundColor: "#ffff99",
-            color: "black",
-            cursor: "pointer",
-          }}
-        />
+        {checkForDefaults(name, message, email) ? (
+          <input
+            type="submit"
+            value="Submit"
+            style={{
+              backgroundColor: "#ffff99",
+              color: "black",
+              cursor: "pointer",
+            }}
+          />
+        ) : (
+          <input
+            type="button"
+            value="Enter Info.."
+            style={{
+              backgroundColor: "black",
+              color: "white",
+            }}
+          />
+        )}
       </form>
     </div>
   );
