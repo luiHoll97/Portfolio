@@ -7,10 +7,13 @@ import Contact from "./routes/Contact";
 import Projects from "./routes/Projects";
 import About from "./routes/About";
 import { Route, Routes } from "react-router-dom";
+import ScrollToTop from "./utils/ScrollToTop";
 
 function App(): JSX.Element {
+
   return (
     <>
+    <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="contact" element={<Contact />} />
