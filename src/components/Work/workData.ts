@@ -23,7 +23,7 @@ const workData = [
     description:
       "Students have a hard time as it is.. let them share the logic!",
     imgsrc:
-    "https://img.freepik.com/premium-vector/line-icon-open-book-vector-outline-illustration-isolated-white-reading-symbol_439591-523.jpg?w=2000",
+      "https://img.freepik.com/premium-vector/line-icon-open-book-vector-outline-illustration-isolated-white-reading-symbol_439591-523.jpg?w=2000",
     webLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     finished: true,
   },
@@ -31,7 +31,7 @@ const workData = [
     id: 4,
     title: "Portfolio Website",
     description: "My first portfolio! Hint: you're currently viewing it..",
-    imgsrc:"https://cdn-icons-png.flaticon.com/512/8590/8590378.png",
+    imgsrc: "https://cdn-icons-png.flaticon.com/512/8590/8590378.png",
     webLink: "http://localhost:3000/",
     finished: true,
   },

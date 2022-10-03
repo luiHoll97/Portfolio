@@ -12,16 +12,15 @@ const NavBar = (): JSX.Element => {
 
   const changeNavColour = () => {
     if (window.scrollY >= 100) {
-      setColour(true)
+      setColour(true);
+    } else {
+      setColour(false);
     }
-    else {
-      setColour(false)
-    }
-  }
+  };
 
-  window.addEventListener("scroll", changeNavColour)
+  window.addEventListener("scroll", changeNavColour);
   return (
-    <div className={colour ? "header header-bg": "header"}>
+    <div className={colour ? "header header-bg" : "header"}>
       <Link to={"/"}>
         <img src={myLogo} className="myLogo" alt="Logo"></img>
       </Link>

@@ -10,10 +10,9 @@ import { Route, Routes } from "react-router-dom";
 import ScrollToTop from "./utils/ScrollToTop";
 
 function App(): JSX.Element {
-
   return (
     <>
-    <ScrollToTop />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="contact" element={<Contact />} />
