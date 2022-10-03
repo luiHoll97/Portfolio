@@ -54,18 +54,22 @@ const Footer = (): JSX.Element => {
           ></hr>
           <p></p>
           <div className="social">
-            <FaGithub
-              size={25}
-              style={{ color: "white", marginRight: "1rem" }}
-            />
+            <a href="https://github.com/luiHoll97">
+              <FaGithub
+                size={25}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </a>
             <FaInstagram
               size={25}
               style={{ color: "white", marginRight: "1rem" }}
             />
-            <FaLinkedin
-              size={25}
-              style={{ color: "white", marginRight: "1rem" }}
-            />
+            <a href="www.linkedin.com/in/lucien-holliday">
+              <FaLinkedin
+                size={25}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>
