@@ -15,7 +15,7 @@ const workData = [
     imgsrc:
       "https://static.vecteezy.com/system/resources/previews/006/568/828/original/black-and-white-mechanical-keyboard-isolated-icon-free-vector.jpg",
     webLink: "https://www.youtube.com/watch?v=klfT41uZniI",
-    finished: true,
+    finished: false,
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const workData = [
     imgsrc:
       "https://img.freepik.com/premium-vector/line-icon-open-book-vector-outline-illustration-isolated-white-reading-symbol_439591-523.jpg?w=2000",
     webLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    finished: true,
+    finished: false,
   },
   {
     id: 4,

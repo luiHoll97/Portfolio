@@ -22,7 +22,7 @@ const AboutContent = (): JSX.Element => {
               width: "max",
             }}
           ></hr>
-          Before my move into tech, I was a Biomedical Science's graduate and
+          Before my move into tech, I was a Biomedical Sciences graduate and
           worked as Project Manager in sustainable construction. As rewarding as
           the work was, I guess I found dev tools more interesting than a
           carpenter's...(sorry)
