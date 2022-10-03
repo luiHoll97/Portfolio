@@ -1,7 +1,9 @@
 import React from "react";
+// ===== Components =====
 import Footer from "../components/Footer/Footer";
 import NavBar from "../components/NavBar/NavBar";
 import ProjectsComp from "../components/Projects/ProjectsComp";
+import AboutContent from "../components/About/AboutContent";
 
 const About = (): JSX.Element => {
   return (
@@ -9,8 +11,9 @@ const About = (): JSX.Element => {
       <NavBar />
       <ProjectsComp
         heading="About"
-        text="Recent scholar from Academy.tech's fully funded coding bootcamp"
+        text="Where to start. I normally talk about being a career changer.. but I'll spare the details"
       />
+      <AboutContent />
       <Footer />
     </div>
   );
