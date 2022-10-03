@@ -19,20 +19,5 @@ const ContactMe = (): JSX.Element => {
   )
 };
 
-/*
-<form action="https://public.herotofu.com/v1/6fa96b40-431d-11ed-9b17-6fdf7f94f506" method="post">
-  <div>
-    <label for="name">Your Name</label>
-    <input name="Name" id="name" type="text" required />
-  </div>
-  <div>
-    <label for="email">Your Email</label>
-    <input name="Email" id="email" type="email" required  />
-  </div>
-  <div>
-    <input type="submit" value="Download CTA" />
-  </div>
-</form>
-*/
 
 export default ContactMe;
