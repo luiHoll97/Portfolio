@@ -7,8 +7,21 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const NavBar = (): JSX.Element => {
   // state for dropdown menu
   const [dropdownStatus, setDropdownStatus] = useState<boolean>(false);
+  // state for navbar colour
+  const [colour, setColour] = useState<boolean>(false);
+
+  const changeNavColour = () => {
+    if (window.scrollY >= 100) {
+      setColour(true)
+    }
+    else {
+      setColour(false)
+    }
+  }
+
+  window.addEventListener("scroll", changeNavColour)
   return (
-    <div className="header">
+    <div className={colour ? "header header-bg": "header"}>
       <Link to={"/"}>
         <img src={myLogo} className="myLogo" alt="Logo"></img>
       </Link>
