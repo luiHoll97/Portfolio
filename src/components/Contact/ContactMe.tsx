@@ -36,7 +36,7 @@ const ContactMe = (): JSX.Element => {
           rows={6}
           placeholder="type your message here"
         />
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" style={{backgroundColor:"#ffff99", color:"black", cursor:"pointer"}}/>
       </form>
     </div>
   );
