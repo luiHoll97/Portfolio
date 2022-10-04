@@ -9,6 +9,7 @@ interface IProject {
   imgsrc: string;
   webLink: string;
   finished: boolean;
+  group: boolean;
 }
 
 // const numberOfProjects = (workData : IProject[]) => {
@@ -29,11 +30,17 @@ const ProjectCard = (): JSX.Element => {
             className={project.finished ? "proj-card" : "proj-card-dev"}
             key={project.id}
           >
-            <div className="img-cont">
-              <img src={project.imgsrc} alt="proj-card" />
-              {project.finished === false && (
-                <div className="centered">Coming soon</div>
-              )}
+            <div className="imgtst">
+              <div
+                className="img-cont"
+                onClick={() => (window.location.href = project.webLink)}
+              >
+                <img src={project.imgsrc} alt="proj-card" />
+                {project.finished === false && (
+                  <div className="centered">Coming soon</div>
+                )}
+                {project.group && <div className="top">Team Project</div>}
+              </div>
             </div>
 
             <h2 className="proj-title">{project.title}</h2>
