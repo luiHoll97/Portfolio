@@ -11,7 +11,7 @@ const Projects = (): JSX.Element => {
       <NavBar />
       <ProjectsComp
         heading="Projects"
-        text="a few things I've been tinkering on.."
+        text="a few things I've been tinkering with.."
       />
       <ProjectCard />
       <Footer />

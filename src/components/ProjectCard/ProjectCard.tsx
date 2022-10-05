@@ -33,7 +33,7 @@ const ProjectCard = (): JSX.Element => {
             <div className="imgtst">
               <div
                 className="img-cont"
-                onClick={() => (window.location.href = project.webLink)}
+                onClick= {project.finished ? () => window.location.href = project.webLink : undefined}
               >
                 <img src={project.imgsrc} alt="proj-card" />
                 {project.finished === false && (
@@ -47,12 +47,12 @@ const ProjectCard = (): JSX.Element => {
             <div className="pro-details">
               <p>{project.description}</p>
               <div className="pro-buttons">
-                <button
+                { project.finished && <button
                   className="btn"
                   onClick={() => (window.location.href = project.webLink)}
                 >
                   {project.finished ? "View" : "Ok then.."}
-                </button>
+                </button>}
               </div>
             </div>
           </div>
