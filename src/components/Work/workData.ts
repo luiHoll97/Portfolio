@@ -1,10 +1,9 @@
-
-
 const workData = [
   {
     id: 1,
     title: "Dog Voter",
-    description: "Very simple design but my first exposure to socket.io. Pictures from the API could be re-done..",
+    description:
+      "Very simple design but my first exposure to socket.io. Pictures from the API could be re-done..",
     imgsrc:
       "https://t3.ftcdn.net/jpg/01/24/12/94/360_F_124129466_qwG7GFUCpSSnZ8krEC1tHpM9qcq3Fb5w.jpg",
     webLink: "https://favourite-dog-picker.netlify.app",
@@ -44,12 +43,13 @@ const workData = [
   {
     id: 5,
     title: "TV Shows",
-    description: "Simple project. The app fetches from an API to display TV shows and their correseponding episodes. Using for CSS practise!",
+    description:
+      "Simple project. The app fetches from an API to display TV shows and their correseponding episodes. Using for CSS practise!",
     imgsrc: "https://img.icons8.com/carbon-copy/344/retro-tv.png",
     webLink: "https://lui-holliday.netlify.app",
     finished: false,
-    group: false
-  }
+    group: false,
+  },
 ];
 
 export default workData;
